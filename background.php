@@ -26,7 +26,7 @@ $data = json_encode(array(
         "message" => array(
             "message_id" => $data["result"]["message_id"]
         ),
-        "data" => $data['result']['reply_markup']['inline_keyboard'][0][0]['callback_data']
+        "data" => $data['result']['reply_markup']['inline_keyboard'][0][0]['callback_data']." auto"
     )
 ));
 
